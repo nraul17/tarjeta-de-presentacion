@@ -2,21 +2,22 @@
 
 * {
   margin: 0;
-  font-family: 'Nunito','poppins', sans-serif;
+  font-family: "Nunito", "poppins", sans-serif;
 }
 
 header {
   background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   box-sizing: border-box;
-  text-align: center ;
+  text-align: center;
 }
 
 img {
@@ -25,7 +26,9 @@ img {
   margin: auto;
 }
 
-header h1, h2, p {
+header h1,
+h2,
+p {
   color: white;
 }
 
@@ -38,7 +41,37 @@ header h2 {
   font-size: 30px;
   font-weight: bold;
 }
- header p {
+header p {
   font-size: 20px;
   margin-top: 15px;
- }
+}
+
+/* Estilos para el responsive que se activan en pantallas inferiores a 768px*/
+
+@media(max-width:768px) {
+
+  header {
+    height: 60vh;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header p {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+}
