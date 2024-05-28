@@ -120,11 +120,14 @@ header p {
   height: 100px;
   justify-content: space-evenly;
   margin-bottom: 25px;
+  box-sizing: border-box;
+  align-items: center;
 }
 
 .redes h2 {
   color: #3b3663;
   font-size: 30px;
+  text-align: center;
 }
  .boton-redes {
   width: 100%;
@@ -151,7 +154,7 @@ header p {
 @media(max-width:768px) {
 
   header {
-    height: 60vh;
+    height: 70vh;
     box-sizing: border-box;
   }
 /*
@@ -179,6 +182,15 @@ header p {
   flex-direction: column;
   align-items: center; 
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.botones a {
+  font-size: 12px;
+}
+
+.redes h2 {
+  font-size: 25px;
 }
 
 }
