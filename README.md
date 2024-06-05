@@ -1,8 +1,11 @@
-## Plantilla básica para proyectos con HTML5 y CSS
+## Proyecto de sitio web responsivo con HTML5 y CSS
+
+**[Link en vivo](https://nraul17.github.io/tarjeta-de-presentacion/)**
 
 **Descripción del proyecto**
 
-Esta plantilla proporciona una estructura HTML básica para iniciar rápidamente tu proyecto web en GitHub. Incluye secciones comunes como encabezado, navegación, contenido principal y pie de página. Puedes personalizarla fácilmente para adaptarla a tus necesidades específicas.
+Este proyecto consiste en el desarrollo de una tarjeta de presentación interactiva, utilizando únicamente HTML5 y CSS. El objetivo es crear un sitio web que se adapte a diferentes tamaños de pantalla, desde dispositivos móviles hasta computadoras de escritorio, sin necesidad de utilizar frameworks o bibliotecas adicionales.
+En esta ocasión, incluiremos en la tarjeta botones con enlaces a un sitio web corporativo, una encuesta tipo interactiva y diferentes redes sociales.
 
 **Tecnologías utilizadas**
 
@@ -13,45 +16,31 @@ Esta plantilla proporciona una estructura HTML básica para iniciar rápidamente
 
 La estructura del proyecto se organiza de la siguiente manera:
 
-- `head.html`: Contiene metadatos, enlaces a archivos CSS y JavaScript, y otros elementos relevantes para la cabecera del sitio web.
-- `header.html`: Define el encabezado del sitio web, que generalmente incluye el logotipo, la navegación y otros elementos importantes.
-- `main.html`: Contiene el contenido principal del sitio web, como artículos, publicaciones en un blog o páginas de productos.
-- `footer.html`: Define el pie de página del sitio web, que generalmente incluye información de copyright, enlaces a redes sociales y otros elementos informativos.
 - `index.html`: El archivo principal del sitio web que contiene el contenido HTML.
 - `styles.css`: El archivo principal de estilos CSS que define el aspecto del sitio web.
 - `images`: Carpeta que contiene las imágenes utilizadas en el sitio web.
-- `screenshots`: Carpeta para incluir capturas de pantalla del proyecto.
+- `screenshots`: Carpeta donde encontrarás capturas de pantalla del proyecto en vivo.
 
 **Requisitos para ejecutar el proyecto**
 
-Para ejecutar el proyecto, se necesita un navegador web moderno que soporte HTML5, CSS y un editor de código fuente.
+Para ejecutar el proyecto, se necesita un navegador web moderno que soporte HTML5 y CSS.
 
-**Pasos para utilizar la plantilla**
+**Pasos para ejecutar el proyecto**
 
-1. Clonar o descargar la plantilla.
-   - Clonar: Usa el botón "Clonar" en la parte superior derecha de esta página para clonar el repositorio directamente en tu cuenta de GitHub.
-   - Descargar: Haz clic en el botón "Descargar ZIP" para descargar un archivo ZIP que contiene la plantilla. Luego, puedes extraer el archivo y crear un nuevo repositorio en GitHub.
-2. Personalizar la plantilla:
-   - Edita los archivos HTML: Abre los archivos HTML en tu editor de código preferido y realiza los cambios necesarios para adaptarlos a tu proyecto.
-   - Agrega CSS: Crea un archivo CSS para definir los estilos de tu sitio web. Puedes vincular este archivo en el archivo head.html.
-   - Añade JavaScript: Si tu proyecto lo requiere, puedes agregar archivos JavaScript para implementar funcionalidades interactivas.
-3. Implementar cambios:
-   - Subir cambios a GitHub: Una vez que hayas realizado las personalizaciones, sube los cambios a tu repositorio de GitHub.
-   - Implementar en un servidor web: Para que tu sitio web esté visible en Internet, debes implementarlo en un servidor web. Puedes usar un servicio de alojamiento web o configurar tu propio servidor.
+1. Clonar el repositorio del proyecto en su computadora.
+2. Abrir el archivo `index.html` en un navegador web.
+
+**Consideraciones de diseño responsivo**
+
+Para lograr un diseño responsivo, se han utilizado las siguientes técnicas:
+
+- **Media queries**: Se han utilizado media queries para definir diferentes estilos para diferentes tamaños de pantalla.
+- **Unidades relativas**: Se han utilizado unidades relativas, como `%` y `vw`, para que los elementos del sitio web se adapten al tamaño de la pantalla.
+- **Diseño flexible**: Se ha utilizado un diseño flexible que permite que los elementos del sitio web se reordenen y reescalen según el tamaño de la pantalla.
 
 **Ejemplos de uso**
 
-Esta plantilla HTML básica se puede utilizar para una amplia variedad de proyectos web, incluyendo:
-
-- Sitios web personales: Crea un sitio web para mostrar tu portafolio, blog o curriculum vitae.
-
-- Sitios web comerciales: Desarrolla un sitio web para tu negocio o empresa, incluyendo información sobre productos, servicios y contacto.
-
-- Sitios web informativos: Crea un sitio web para compartir información sobre un tema en particular, como noticias, educación o tutoriales.
-
-- Sitios web de una sola página: Diseña una página web única para presentar un producto, evento o idea de manera atractiva.
-
-- Páginas de aterrizaje: Crea una página web específica para capturar leads o promocionar una oferta especial.
+El sitio web responsivo desarrollado en este proyecto puede utilizarse para crear diferentes tipos de tarjetas de presentacion, que pueden ser utilizadas de forma profesional.
 
 **Contribuciones**
 
@@ -59,7 +48,7 @@ Se agradece cualquier contribución a este proyecto, ya sea en forma de correcci
 
 **Licencia**
 
-Este proyecto está licenciado bajo la licencia MIT, sintete libre de utilizarla para tus proyectos.
+Este proyecto está licenciado bajo la licencia MIT.
 
 **Recursos adicionales**
 

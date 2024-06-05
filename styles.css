@@ -1,0 +1,196 @@
+/* Reset */
+
+* {
+  margin: 0;
+  font-family: "Nunito", "poppins", sans-serif;
+}
+
+#banner {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  }
+
+img {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+}
+
+header h1,
+h2,
+p {
+  color: white;
+}
+
+header h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+header p {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;  
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgba(0,0,0,.2);
+}
+
+.iconos img {
+  width: 100px;
+  height: 100px;
+}
+
+.iconos figure {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.iconos figcaption {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.iconos figure:hover {
+  transform: scale(1.3);
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  margin: 25px 0;
+  }
+
+.botones a {
+  
+  text-decoration: none;
+  border: solid 1px #6254e7;
+  background-color: #6254e7;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  }
+
+.botones a:hover {
+  background-color: white;
+  color:#6254e7;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.redes h2 {
+  color: #3b3663;
+  font-size: 30px;
+  text-align: center;
+}
+ .boton-redes {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .boton-redes i {
+  font-size: 40px;
+  padding: 10px;
+  color: #6254e7;
+  position: relative;
+}
+
+.boton-redes a:hover {
+  transform: scale(1.3);
+  color: white;
+}
+
+/* Estilos para el responsive que se activan en pantallas inferiores a 768px*/
+
+@media(max-width:768px) {
+
+  header {
+    height: 70vh;
+    box-sizing: border-box;
+  }
+/*
+  img {
+    width: 250px;
+    height: 250px;
+  }
+  */
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header p {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.iconos {
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.botones a {
+  font-size: 12px;
+}
+
+.redes h2 {
+  font-size: 25px;
+}
+
+}
